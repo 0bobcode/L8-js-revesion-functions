@@ -42,7 +42,26 @@ function add2(x,y){
     let result = x+y;
     console.log(result)
 }
-add(24,53)
+add2(24,53)
 //arrow function
 const add3 = (x,y)=>{ let result = x+y; console.log(result)}
 add3(43,66)
+
+//subtaction function declaration
+function subtraction(x,y){
+    let result = x-y;
+    console.log(result)
+}
+subtraction(460,260)
+//multiplycation function expression
+let multiplication = function(x,y){
+    let result = x*y;
+    console.log(result)
+}
+multiplication(10,40)
+//division arrow function
+const division = (x,y)=>{
+    let result = x/y;
+    console.log(result)
+ }
+ division(99,1)
